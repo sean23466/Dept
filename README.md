@@ -2,8 +2,8 @@
 # 一、簡介說明
 部門管理系統是使用Vue和Spring Boot，來設計出一個可以新增、查詢、修改、刪除部門的功能。
 # 二、功能操作
-<img width="605" alt="部門管理系統1" src="https://github.com/user-attachments/assets/cc6bea8e-499b-46ea-8fc2-5c4372ac5c5f" />
 1.部門查詢:可用來查詢部門的編號、部門名稱、地址。
 2.操作:可用來修改編號、部門名稱及地址，輸入完成後可以按修改即成功，若輸入錯誤可按重置。
 3.刪除:可用來刪除錯誤的編號資料。
 4.添加部門:用於新增一筆部門編號，輸入完成後可以按立即創建，若輸入錯誤可以按重置並清空。
+<img width="605" alt="部門管理系統1" src="https://github.com/user-attachments/assets/cc6bea8e-499b-46ea-8fc2-5c4372ac5c5f" />
