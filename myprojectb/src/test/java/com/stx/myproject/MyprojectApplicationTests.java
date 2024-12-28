@@ -14,7 +14,7 @@ class MyprojectApplicationTests {
     private DeptRepository deptRepository;
     @Test
     void contextLoads() {
-        //limit (當前页-1)*每頁顯示條數，每頁顯示條數   page是第幾頁
+        //limit (當前頁-1)*每頁顯示條數，每頁顯示條數   page是第幾頁
         PageRequest pageRequest = PageRequest.of(0, 6);
         Page<Dept> page = deptRepository.findAll(pageRequest);
         int age=0;
